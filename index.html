@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <button data-mp-button data-public-id="2"></button>
+
+    <h2>Contacto</h2>
+
+    <form data-mc-form>
+      <div>
+        <label for="name">Nombre</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Tu nombre"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tu@email.com"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="message">Mensaje</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Escribí tu mensaje..."
+        ></textarea>
+      </div>
+
+      <br />
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    <script src="http://localhost:3000/mp-widget.js"></script>
+    <script
+      src="http://localhost:3000/rg-widget.js"
+      data-public-id="3"
+      defer
+    ></script>
+  </body>
+</html>
